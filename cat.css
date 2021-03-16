@@ -1,0 +1,123 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.body {
+    font-family: roboto;
+}
+
+.header {
+  padding: 0;  
+  background-color: #8d76ce;
+  color: white;
+  height: 100px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 40px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 50px;
+}
+
+.copy-container h1 {
+  font-size: 80px;
+}
+
+.copy-container h2 {
+  font-size: 80px;
+}
+
+.copy-container span {
+  color: #8d76ce;
+  border-bottom: 2px solid #8d76ce;
+}
+
+.copy-container h3{
+  font-size: 50px;
+  color: #7694ce;
+}
+
+.tombol h4 {
+  color: black;
+  font-size: 50px;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.tombol {
+  text-align: center;
+}
+.message {
+  padding: 15px 40px;
+  text-align: center;
+  background-color: #8d76ce;
+  color: white;
+  width: 1200px;
+  height: 200px;
+  font-size: 40px;
+  padding: 10px 20px;
+  margin: 100px 100px;
+  cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+  position: inline-block;
+}
+
+.contents-tittle {
+  font-size: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  position: inline-block;
+}
+
+.contents-item {
+  float: left;
+}
+
+img {
+  margin: 30px 50px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #dee7de;
+}
+
+.contact-submit {
+  margin-top: 30px;
+  background-color: #8d76ce;
+}
